@@ -1,0 +1,123 @@
+*{margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  body{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      background: #c0baba;
+  }
+
+  header{
+      background-color: rgba(90, 27, 8, 0.787);
+      background: url(imagenes/banner2.jpg) rgb(90, 27, 8, 0.78);
+      background-repeat: no-repeat;
+      background-position: center;
+      color: #ffffff;
+      text-shadow: 4px 4px 3px #000000;
+      margin: 20px;
+      padding: 50px;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      text-align: center;
+      border-radius: 10px;
+      
+  }
+
+  header .contenedor h2{
+      font-size: 40px;
+      margin-bottom: 20px;
+     
+  }
+
+  header .contenedor h3{
+      font-size: 25px;
+      text-shadow: 3px 2px 3px #000000;
+  }
+  
+  header .contenedor p{
+      font-weight: 700;
+      font-size: 30px;
+  }
+
+  header .contenedor .foto{
+      max-width: 300px;
+      max-height: 300px;
+      border-radius: 120px ;
+      margin-top: 30px;
+      margin-bottom: 5px;
+      border: #464646 5px solid;
+  }
+
+  .main{
+      background: #fff;
+      margin: 20px;
+      border-radius: 10px;
+      padding: 20px;
+      display: grid;
+
+  }
+
+  .main .contacto{
+      background: rgb(39, 39, 39);
+      padding: 20px;
+      text-align: center;
+      color: #fff;
+  }
+
+  .main .contacto h3{
+      margin-bottom: 10px;
+      font-size: 30px;
+  }
+  
+  .main .contacto a{
+      color: #fff;
+      font-weight: 700;
+      font-size: 20px;
+
+  }
+
+  .main .top{
+      border-radius: 20px 20px 5px 5px;
+      margin-bottom: 10px;
+  }
+  
+  .main .bottom{
+    border-radius: 5px 5px 20px 20px;
+  }
+
+  .main .info .acerca-de{
+      background: #c0baba;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      text-align: center;
+      text-decoration: none;
+  }
+
+  .main .info .acerca-de ul li{
+    list-style: none;
+    padding-bottom: 10px;
+  }
+
+  .main .info .acerca-de .titulo{
+      font-size: 20px;
+      padding: 8px;
+  }
+
+  footer{
+    background: #520d04;
+    color: #fff;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 700;
+  }
